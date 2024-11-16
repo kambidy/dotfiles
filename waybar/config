@@ -1,0 +1,12 @@
+{
+  "layer": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["window"],
+  "modules-right": ["clock", "battery", "pulseaudio","tray"],
+  "hyprland": {
+    "workspaces": {
+      "format": "{name}",
+      "icon": ""
+    }
+  }
+}

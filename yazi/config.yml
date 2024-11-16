@@ -1,0 +1,6 @@
+commands:
+  play_with_mpv: "mpv {file}"
+
+actions:
+  - pattern: "*.mp4|*.mkv|*.mp3|*.flac|*.ts"  # Adjust patterns as needed for your media types
+    command: "play_with_mpv"

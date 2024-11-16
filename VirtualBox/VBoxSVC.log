@@ -1,0 +1,64 @@
+00:00:00.001041 main     VirtualBox XPCOM Server 7.1.4 r165100 linux.amd64 (Oct 15 2024 16:00:51) release log
+00:00:00.001044 main     Log opened 2024-11-15T12:23:22.316765000Z
+00:00:00.001045 main     Build Type: release
+00:00:00.001048 main     OS Product: Linux
+00:00:00.001049 main     OS Release: 6.11.5-arch1-1
+00:00:00.001051 main     OS Version: #1 SMP PREEMPT_DYNAMIC Tue, 22 Oct 2024 18:31:38 +0000
+00:00:00.001084 main     DMI Product Name: Latitude 7280
+00:00:00.001095 main     DMI Product Version: 
+00:00:00.001102 main     Firmware type: UEFI
+00:00:00.001357 main     Secure Boot: Disabled
+00:00:00.001413 main     Host RAM: 7823MB (7.6GB) total, 7159MB (6.9GB) available
+00:00:00.001416 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001416 main     Process ID: 911
+00:00:00.001417 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.004123 main     IPC socket path: /tmp/.vbox-kambidy-ipc/ipcd
+00:00:00.029810 DCon01   VirtualBox: object creation starts
+00:00:00.030521 DCon01   Home directory: '/home/kambidy/.config/VirtualBox'
+00:00:00.030904 DCon01   Loading settings file "/home/kambidy/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.047574 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.050272 DCon01   HostDnsMonitor: initializing
+00:00:00.050520 DCon01   NAT: resolv.conf: nameserver 192.168.0.1
+00:00:00.050541 DCon01   HostDnsMonitor: updating information
+00:00:00.050558 DCon01   HostDnsMonitor: old information
+00:00:00.050560 DCon01     no server entries
+00:00:00.050563 DCon01     no domain set
+00:00:00.050564 DCon01     no search string entries
+00:00:00.050566 DCon01   HostDnsMonitor: new information
+00:00:00.050568 DCon01     server 1: 192.168.0.1
+00:00:00.050570 DCon01     no domain set
+00:00:00.050572 DCon01     no search string entries
+00:00:00.053293 DCon01   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.054288 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.055248 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.058318 DCon01   Platform architecture set to 'x86'
+00:00:00.060385 DCon01   Loading settings file "/home/kambidy/VirtualBox VMs/arch/arch.vbox" with version "1.19-linux"
+00:00:00.060607 DCon01   Platform architecture set to 'x86'
+00:00:00.061212 DCon01   VirtualBox: object created
+00:00:01.065165 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:01.067012 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:01.149724 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:01.151162 DCon05   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:01.266237 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:01.387588 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:01.390653 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:12.000096 DCon02   Launched VM: 3154119920 pid: 974 (0x3ce) frontend: GUI/Qt name: arch
+00:00:12.071525 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:12.072963 DCon02   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:12.093040 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:12.150566 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:12.151813 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:12.500731 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'arch' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:00:12.603726 DCon02   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:12.604945 DCon02   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:12.623668 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:12.690179 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:12.692637 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:37.009607 DCon07   Saving settings file "/home/kambidy/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:37.016210 DCon07   Finished saving settings file "/home/kambidy/.config/VirtualBox/VirtualBox.xml"
+04:42:02.917178 main     VirtualBox: object deletion starts
+04:42:02.917307 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/kambidy/VirtualBox VMs/arch/arch.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+04:42:02.919291 main     HostDnsMonitor: shutting down ...
+04:42:02.919827 main     HostDnsMonitor: shut down
+04:42:02.931719 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+04:42:02.931987 main     VirtualBox: object deleted
